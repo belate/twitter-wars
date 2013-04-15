@@ -44,9 +44,10 @@ The city that gets a higher score, Wins!
 Usage
 -----
 
-$python twitter.py [--count NUMBER]
+You can use ``--count`` to choose how many twitts you want to process::
 
-You can use ``--count`` to choose how many twitts you want to process.
+    $ python twitter.py [--count NUMBER]
+
 
 Example
 -------
