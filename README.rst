@@ -1,5 +1,10 @@
-Task 1: Twitter Wars!
+Twitter Wars!
 =====================
+
+Requirements
+-------------
+
+You should have ``requests`` installed.
 
 Get twitts
 ----------
@@ -24,7 +29,7 @@ files are.
 For every of these files I create a ``Dictionary`` object I'll use later to
 check if every word inside the tweet is "valid" or not.
 
-For every word in the text I call `Dictionary.score`` to check if it's valid
+For every word in the text I call ``Dictionary.score`` to check if it's valid
 or not using `0` as not found score. As soon as a dictionary scores a word I
 don't score it again.
 
@@ -77,8 +82,3 @@ Example run::
 
     London score: 49
     Exeter score: 56
-
-Requirements
--------------
-
-You should have ``requests`` installed.
